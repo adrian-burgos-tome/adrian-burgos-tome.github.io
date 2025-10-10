@@ -1,0 +1,13 @@
+quiero hacer una pagina web identica a el tema astra de wordpress, dime que instrucciones necesitas
+
+quiero que uses la ultima version con el tema que mas se adapte a una pagina web de un restaurante, todas las secciones que puedas lo mas detalladas posibles, usa html, css, js y frameworks bootstrap, sera una landing page con varias secciones para contactos, que llos colores sean una mezcla que de elegancia usando fuentes elegantes
+
+vale, usa js y frameworks para animaciones de inicio Generame una imagen
+
+Generame una imagen de un chef gourmet
+
+Generame la imagen de un entrante de alta cocina
+
+Generame la imagen de un plato de alta cocina
+
+Generame un postre de alta cocina

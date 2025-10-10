@@ -1,0 +1,62 @@
+body {
+    background: #f8f8f8;
+}
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #222;
+    position: relative;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    color: #d4af37;
+    text-shadow: 2px 2px 8px #000;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+.card-title {
+    font-family: 'Playfair Display', serif;
+}
+
+footer {
+    background: #111;
+    color: #fff;
+}
+
+.btn-warning {
+    background-color: #d4af37 !important;
+    color: #222 !important;
+    border: none;
+}
+
+/* Galería imágenes */
+#gallery img {
+    transition: transform 0.3s;
+}
+#gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+/* Testimonios */
+#testimonials .card {
+    border-radius: 1rem;
+}
+
+/* Contacto */
+#contact .form-control {
+    border-radius: 0.5rem;
+    border: 1px solid #d4af37;
+}

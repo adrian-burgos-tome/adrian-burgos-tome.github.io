@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Elegante</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="restaurante-elegante.css">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background: #f8f8f8;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#" style="font-family: 'Playfair Display', serif; color: #d4af37;">Restaurante Elegante</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">Sobre Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="#menu">Menú</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Galería</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-dark text-light text-center d-flex align-items-center" style="height: 80vh; background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80'); background-size: cover; background-position: center;">
+      <div class="container">
+        <h1 class="display-3 mb-4" style="color: #d4af37;">Bienvenido a Restaurante Elegante</h1>
+        <p class="lead mb-5">Experiencia gastronómica única con el mejor ambiente y cocina de autor.</p>
+        <a href="#menu" class="btn btn-lg btn-warning text-dark fw-bold" style="background-color: #d4af37; border: none;">Ver Menú</a>
+      </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="about" class="py-5 bg-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <img src="/images/chef_ia.png" alt="Chef IA" class="img-fluid rounded shadow">
+          </div>
+          <div class="col-md-6">
+            <h2 class="mb-3" style="color: #d4af37;">Sobre Nosotros</h2>
+            <p>Somos un restaurante de alta cocina, fusionando tradición y modernidad. Nuestro chef galardonado crea platos únicos con ingredientes frescos y locales.</p>
+            <ul>
+              <li>Ambiente elegante y acogedor</li>
+              <li>Ingredientes seleccionados por expertos</li>
+              <li>Servicio profesional y personalizado</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menú -->
+    <section id="menu" class="py-5" style="background-color: #222; color: #fff;">
+      <div class="container">
+        <h2 class="text-center mb-5" style="color: #d4af37;">Nuestro Menú</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card bg-dark text-light h-100 border-0 shadow">
+              <img src="/images/entrante.png" class="card-img-top" alt="Entrante IA">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #d4af37;">Entrante Gourmet</h5>
+                <p class="card-text">Selección de aperitivos creativos para abrir el apetito.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card bg-dark text-light h-100 border-0 shadow">
+              <img src="images/plato1.png" class="card-img-top" alt="Plato Principal IA">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #d4af37;">Plato Principal</h5>
+                <p class="card-text">Carnes y pescados preparados con técnicas de vanguardia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card bg-dark text-light h-100 border-0 shadow">
+              <img src="/images/postre.png" class="card-img-top" alt="Postre IA">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #d4af37;">Postre de Autor</h5>
+                <p class="card-text">Dulces exquisitos para cerrar con broche de oro.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería -->
+    <section id="gallery" class="py-5 bg-white">
+      <div class="container">
+        <h2 class="text-center mb-5" style="color: #d4af37;">Galería</h2>
+        <div class="row g-3">
+          <div class="col-6 col-md-3">
+            <img src="https://lexica-serve-2.imgix.net/3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f/full.jpeg" class="img-fluid rounded shadow" alt="Galería IA">
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="https://lexica-serve-2.imgix.net/4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a/full.jpeg" class="img-fluid rounded shadow" alt="Galería IA">
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="https://lexica-serve-2.imgix.net/5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b/full.jpeg" class="img-fluid rounded shadow" alt="Galería IA">
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="https://lexica-serve-2.imgix.net/6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c/full.jpeg" class="img-fluid rounded shadow" alt="Galería IA">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonials" class="py-5" style="background-color: #222; color: #fff;">
+      <div class="container">
+        <h2 class="text-center mb-5" style="color: #d4af37;">Testimonios</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card bg-dark text-light border-0 shadow">
+              <div class="card-body">
+                <p class="card-text">“Una experiencia culinaria inolvidable. El ambiente y la comida son excepcionales.”</p>
+                <h6 class="card-subtitle mb-2" style="color: #d4af37;">- Cliente IA 1</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card bg-dark text-light border-0 shadow">
+              <div class="card-body">
+                <p class="card-text">“El mejor restaurante de la ciudad. Volveré sin duda.”</p>
+                <h6 class="card-subtitle mb-2" style="color: #d4af37;">- Cliente IA 2</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card bg-dark text-light border-0 shadow">
+              <div class="card-body">
+                <p class="card-text">“Platos creativos y atención impecable. ¡Recomendado!”</p>
+                <h6 class="card-subtitle mb-2" style="color: #d4af37;">- Cliente IA 3</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="py-5 bg-white">
+      <div class="container">
+        <h2 class="text-center mb-5" style="color: #d4af37;">Contacto</h2>
+        <div class="row">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-warning text-dark fw-bold" style="background-color: #d4af37; border: none;">Enviar</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537363155047!3d-37.81627974202198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f1f1f1%3A0x5045675218ce6e0!2sRestaurante!5e0!3m2!1ses!2ses!4v1633072800000!5m2!1ses!2ses" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+      <div class="container text-center">
+        <p class="mb-0">&copy; 2025 Restaurante Elegante. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
