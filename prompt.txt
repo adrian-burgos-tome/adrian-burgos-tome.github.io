@@ -11,3 +11,9 @@ Generame la imagen de un entrante de alta cocina
 Generame la imagen de un plato de alta cocina
 
 Generame un postre de alta cocina
+
+Generame una sala de restaurante
+
+Generame otra sala de restaurante
+
+Generame una ultima sala de restaurante
